@@ -105,6 +105,9 @@ public class FixingBugs {
         if(found == 1) {
         	System.out.println(Key+" is found at index "+index);
         }
+        else {
+        	System.out.println("The element is not found");
+        }
     }
     private static void sortExpenses(ArrayList<Integer> arrayList) {
         int arrlength =  arrayList.size();
